@@ -88,7 +88,7 @@ const editTodo = (todo) => {
     
     <div className=  {dark ? " rounded-md bg-[#c1baa1]  p-2 px-6 " : " rounded-md bg-[#476d7c]  p-2 px-6 "} >
     <Form   addTodo = {addTodo} edit={edit}  updateTodo={updateTodo}  dark={dark}/>
-    <ListGroup   todos= {todos} removeTodo={removeTodo} editTodo={editTodo}  />
+    <ListGroup   todos= {todos} removeTodo={removeTodo} editTodo={editTodo}  dark={dark} />
    </div>
    </div>
 

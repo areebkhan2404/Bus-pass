@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ListItem = ({ todo, removeTodo ,  editTodo }) => {
+const ListItem = ({ todo, removeTodo ,  editTodo, dark }) => {
   return (
 
-    <li className=' relative  my-3 bg-[#a59d84] rounded-md p-4'>
+    <li className= {dark? "relative  my-3 bg-[#a59d84] rounded-md p-4" : "relative  my-3 bg-[#50818d] rounded-md p-4" }>
 
       <p className='text-sm text-white my-4'>#{todo.id}</p>
       <h1 className='text-lg font-bold my-2 '>{todo.text} </h1>

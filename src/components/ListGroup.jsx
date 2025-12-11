@@ -1,7 +1,7 @@
 import React from 'react'
 import ListItem from './ListItem'
 
-const ListGroup = ({ todos, removeTodo , editTodo }) => {
+const ListGroup = ({ todos, removeTodo , editTodo , dark }) => {
 
 
     if(todos.length === 0){
@@ -17,7 +17,7 @@ const ListGroup = ({ todos, removeTodo , editTodo }) => {
 
         <ul className='my-4'>
 {
-            todos.map ((todo) =>  <ListItem  key={todo.id}  todo={todo}  removeTodo={removeTodo}  editTodo={editTodo}/> ) 
+            todos.map ((todo) =>  <ListItem  key={todo.id}  todo={todo}  removeTodo={removeTodo}  editTodo={editTodo} dark={dark}/> ) 
 }
     </ul>
   )
