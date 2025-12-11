@@ -1,0 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Lexend:wght@100..900&family=Momo+Trust+Display&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Science+Gothic:wght@100..900&display=swap');  */
+
+*{}
+
+@font-face {
+    font-family: "word" ;
+    src: url("./src/assets/MomoTrustDisplay-Regular.ttf") format(truetype)
+}
+
+@theme{
+    --font-word : "word" , "sans-serif"
+    
+}
