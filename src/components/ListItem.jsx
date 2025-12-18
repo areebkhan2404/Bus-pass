@@ -7,6 +7,7 @@ const ListItem = ({ todo, removeTodo ,  editTodo, dark }) => {
 
       <p className='text-sm text-white my-4'>#{todo.id}</p>
       <h1 className='text-lg font-bold my-2 '>{todo.text} </h1>
+        <h1 className='text-lg font-bold my-2 '>{todo.last} </h1>
       <h1 className='text-lg font-bold my-2 '> {todo.age} </h1>
       <h1 className='text-lg font-bold my-2 '> {todo.email} </h1>
       <h1 className='text-lg font-bold my-2 '> {todo.phone}</h1>
