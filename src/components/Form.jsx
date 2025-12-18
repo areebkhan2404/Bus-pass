@@ -97,7 +97,7 @@ const Form = ({ addTodo, edit, updateTodo  , dark   }) => {
         </div>
 
         <div className="w-full ">
-          <input onChange{(e) => setLast(e.target.value)} value-{last} type="text" placeholder=" Enter Your name " className=' my-2 border border-gray-200 cursor-pointer  w-full  border-black  bg-white   p-2 rounded-md ' />
+          <input onChange{(e) => setLast(e.target.value)} value={last} type="text" placeholder=" Enter Your name " className=' my-2 border border-gray-200 cursor-pointer  w-full  border-black  bg-white   p-2 rounded-md ' />
           <h1 className="font-smbold   "> Last name </h1>
         </div>
       </div>
